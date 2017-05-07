@@ -57,5 +57,5 @@ tidymeandata    = aggregate(finaldatawithnoat[,names(finaldatawithnoat) != c('ac
 tidymeandata    = merge(tidymeandata,activitylabels,by='activityId',all.x=TRUE);
 
 # Export the tidymeandata set 
-write.table(tidymeandata, './tidymeandata.txt',row.names=TRUE,sep='\t')
+write.table(tidymeandata, './tidymeandata.txt',row.names=FALSE,sep='\t')
 
