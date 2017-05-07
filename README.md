@@ -4,7 +4,7 @@ The run_analysis.R file does the following:
 
 Downloads the dataset if it does not already exist in the working directory;
 Loads the activity and feature info;
-Loads both the training and test datasets, keeping only those columns which reflect a mean or standard deviation;
+Loads both the training and test datasets;
 Loads the activity and subject data for each dataset, and merges those columns with the dataset;
 Merges the two datasets;
 Converts the activity and subject columns into factors;
